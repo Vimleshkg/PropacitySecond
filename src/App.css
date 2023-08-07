@@ -1,0 +1,325 @@
+body {
+  color: white;
+  font-family: "Dancing Script", cursive;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 1px;
+  overflow-x: hidden;
+}
+
+.App {
+  margin-top: -20px;
+  background-repeat: no-repeat;
+  margin-bottom: 10rem;
+  width: 100%;
+  object-fit: cover;
+  background-color: #394e88;
+}
+
+.Navbar {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Navbar div ul li {
+  display: inline-block;
+  margin: 10px;
+  font-weight: 600;
+}
+
+.btn {
+  padding: 10px;
+  color: white;
+  background-color: #1abc9c;
+  border: none;
+  border-radius: 7px;
+  margin-top: 19px;
+}
+
+.inner-first {
+  display: flex;
+}
+
+.icon {
+  font-size: 50px;
+}
+
+.inner-first {
+  margin: 10px;
+}
+
+.inner-first h1 {
+  margin-top: -6px;
+}
+
+.inner-first h4 {
+  margin-top: -30px;
+}
+
+.mumbai-btn {
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mumbai-btn > button {
+  padding: 15px;
+  border-radius: 8px;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  width: 180px;
+}
+
+.project-ananya {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.project-ananya h1 {
+  font-size: 75px;
+  color: white;
+  font-weight: 500;
+}
+
+.project-ananya h2 {
+  font-size: 55px;
+  color: white;
+  font-weight: 500;
+  margin-top: -70px;
+}
+
+.project-ananya h4 {
+  font-size: 20px;
+  margin-top: -57px;
+  color: #1abc9c;
+}
+
+.search label {
+  color: white;
+  font-size: 18px;
+  position: relative;
+  left: 250px;
+  top: -35px;
+}
+
+.search-icon {
+  display: inline-block;
+  background-color: #1abc9c;
+  border-radius: 9px;
+  position: relative;
+  left: -49px;
+  margin: 5px;
+}
+
+.main-icon {
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+}
+
+.search input {
+  padding: 18px;
+  border-radius: 15px;
+  width: 70%;
+  outline: none;
+  border: none;
+}
+
+.search {
+  position: relative;
+  top: 10rem;
+  display: flex;
+  justify-content: center;
+}
+
+.body-class .test {
+  width: 750px;
+}
+
+.body-class {
+  display: flex;
+  margin-top: 17.2rem;
+  background-color: #1c2540;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+
+.image-container-first {
+  position: relative;
+ 
+  bottom: -5rem;
+}
+
+.about-container-first {
+  position: relative;
+  left: 8rem;
+  bottom: 230px;
+}
+
+.about-container-first > h4 {
+  color: #1abc9c;
+}
+
+.about-container-second > h4 {
+  color: #1abc9c;
+}
+
+.image-container-second {
+  position: relative;
+  left: 8rem;
+  top: -28rem;
+  
+}
+
+.about-container-second {
+  position: relative;
+  left: 10rem;
+  bottom: -27rem;
+}
+
+.image-container-first > img:nth-of-type(2) {
+  position: relative;
+  top: -22rem;
+  left: 6.7rem;
+}
+
+
+@media (min-width: 1500px) and (max-width: 1880px) {
+  .about-container-first{
+    bottom:-7rem;
+  } 
+  .about-container-second {
+    bottom:10rem;
+  }
+}
+
+
+.image-container-second > img:nth-of-type(2) {
+  position: relative;
+  top: -22rem;
+  left: 6.7rem;
+  
+}
+
+.body-class .test p {
+  word-wrap: break-word;
+}
+
+.number {
+  margin-top: -30rem;
+  display: flex;
+  justify-content: space-around;
+  background-color: #1c2540;
+}
+
+.number div h1 {
+  color: #1abc9c;
+  position: relative;
+  top: 1.5rem;
+}
+
+.amenties {
+  margin-top: 20px;
+  background-color: white;
+  display: flex;
+  color: black;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flex-amenties > div {
+  width: 400px;
+}
+
+.flex-amenties {
+  padding-left: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.be-center {
+  position: relative;
+  left: 50%;
+  transform: translate(-80px);
+}
+
+.be-center h1 {
+  position: relative;
+  left: -40px;
+}
+
+.amenties h5 {
+  color: #1abc9c;
+}
+
+.amenties h4 {
+  position: relative;
+  top: 10px;
+  color: #1abc9c;
+}
+
+.amenties .first-image {
+  margin: 10px;
+  margin-left: 70px;
+  margin-top: 50px;
+}
+
+.amenties .second-image {
+  margin: 100px;
+}
+
+.contact {
+  padding:20px;
+  background-color: #1c2540;
+  display: flex;
+  flex-direction: column;
+  margin-bottom:10px;
+}
+
+.contact form {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  padding: 12px;
+  border-radius: 10px;
+  margin: 5px;
+  color:white;
+  background-color: #1c2540;
+  border:2px solid white;
+}
+
+
+
+.sumbit {
+  background-color: #1abc9c;
+  border-radius: 10px;
+  padding:12px;
+  width:90px;
+   color:white;
+  border:2px solid white;
+  position: relative;
+  left:170px;
+}
+
+
+.footer{
+  position: relative;
+  top:-10rem;
+  /* background-color: #F3F4FA; */
+}
+
+.footer img{
+  text-align: center;
+  position: relative;
+  left:7rem;
+}
+
